@@ -1,7 +1,8 @@
 {% load static %}
 article
-<button>Комментировать</button>
-{% comment %}
-    url = <comment>
-{% endcomment %}
+<div id="comment">
+    <button id="comment-btn">Комментировать</button>
+</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="{% static 'article/article.js' %}"></script>
